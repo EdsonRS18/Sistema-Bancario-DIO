@@ -1,12 +1,12 @@
 from datetime import datetime
 import textwrap
 
-from contaCorrente import ContaCorrente
-from pessoaFisica import PessoaFisica
-from saque import Saque
+from banco.contaCorrente import ContaCorrente
+from banco.pessoaFisica import PessoaFisica
+from banco.saque import Saque
 from deposito import Deposito
-from cliente import Cliente
-from transacao import Transacao
+from banco.cliente import Cliente
+from banco.transacao import Transacao
 
 def exibir_menu():
     menu = """

@@ -1,5 +1,5 @@
-from transacao import Transacao
-from conta import Conta
+from banco.transacao import Transacao
+from banco.conta import Conta
 
 
 class Saque(Transacao):

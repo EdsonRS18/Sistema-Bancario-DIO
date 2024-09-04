@@ -1,8 +1,4 @@
-from transacao import Transacao
-from datetime import datetime
-
-from conta import Conta
-
+from banco.transacao import Transacao
 
 class Deposito(Transacao):
 

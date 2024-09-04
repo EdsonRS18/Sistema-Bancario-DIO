@@ -1,4 +1,4 @@
-from historico import Historico
+from banco.historico import Historico
 class Conta:
     def __init__(self, numero,cliente):
         self._saldo = 0

@@ -1,7 +1,5 @@
-from conta import Conta
-from cliente import Cliente
-from pessoaFisica import PessoaFisica
-from saque import Saque
+from banco.conta import Conta
+from banco.saque import Saque
 
 class ContaCorrente(Conta):
 
